@@ -9,7 +9,7 @@ AudioInput in;
 
 void setup()
 {
-  size(512, 200, P3D);
+  size(512, 200, P3D); 
 
   Info[] mixerInfos = AudioSystem.getMixerInfo();
   println("getMixerInfo" +mixerInfos + " length: " + mixerInfos.length);
@@ -17,7 +17,7 @@ void setup()
   {
     println("mixerInfos[" + i + "] " + mixerInfos[i]);
   }
-  
+  //motu showing on index 10&20
   minim = new Minim(this);
   in = minim.getLineIn();
 }
