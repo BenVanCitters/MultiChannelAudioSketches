@@ -17,7 +17,7 @@ void setup()
   {
     println("mixerInfos[" + i + "] " + mixerInfos[i]);
   }
-  
+  //don't know correct indecies?
   minim = new Minim(this);
   in = minim.getLineIn();
 }
